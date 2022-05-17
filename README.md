@@ -49,9 +49,9 @@ Example of training a model with max pooling and no preprocessing:
 python train.py --learning_rate 7e-5 --seed_model 3 --num_epochs 60 --k_mentions 50 --pooling max --candidate_downsampling 1000
 ```
 
-Example of a training model with max pooling and latex2text preprocessing:
+Example of training a model with max pooling and latex2text preprocessing:
 ```
-python train.py --learning_rate 7e-5 --seed_model 1 --num_epochs 60 --k_mentions 50 --pooling max --candidate_downsampling 1000 --preprocessing latex2text
+python train.py --learning_rate 5e-5 --seed_model 1 --num_epochs 60 --k_mentions 50 --pooling max --candidate_downsampling 1000 --preprocessing latex2text
 ```
 
 # Relevant Code per Section in Paper
